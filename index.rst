@@ -12,7 +12,13 @@ Explore when Az and El moved at same time, rather than separately
 
 Look at Azimuth acceleration vs. power supply voltage
 
-Results and analysis to be added to SITCOMTN-110
+
+Description
+============
+We explore the minimum power supply voltage as a function of slew distance, as well as the behavior during velocity and acceleration. We also explore when the telescope moves in azimuth and elevation at the same time and when it moves separately.
+
+Results have been analyzed for observing nights 20240220 and 20240221. During these dates it was not possible to accelerate the telescope so the final results of this analysis are pending observational data. 
+
 
 Add content here
 ================
