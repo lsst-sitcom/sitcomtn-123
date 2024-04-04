@@ -55,6 +55,31 @@ Initially, we attempted to calculate the slew distance using the formula for *an
 
 Therefore, to analyze the slew distance, we calculated the azimuth and elevation distances. For each observation day, we examined the scatter of the differences in azimuth and elevation at the start and end of the slew with their respective minimum supply power voltage. Additionally, we created histograms of these differences in the slew and of the minimum supply power voltage used.
 
+LAS IMAGENES
+
+
+Explore when Az and El moved at same time, rather than separately
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+We are going to analyze the data for different days to identify instances when the telescope moves simultaneously in both azimuth and elevation.
+
+To accomplish this, we'll initially compare the timestamp at the beginning and end of each slew for both azimuth and elevation.
+
+We've categorized our observations into two groups: instances where the telescope moves in azimuth and elevation simultaneously, and instances where it doesn't.
+
+We observed that in all cases, the start and end times of the movements in azimuth and elevation were different. However, upon closer examination, we found that these differences were consistently minimal, typically less than 0.1 seconds.
+
+LAS IMAGENES
+
+
+Look at Azimuth acceleration vs. power supply voltage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+We have analyzed the relationship between velocity and mass acceleration with respect to the minimum supply power voltage, as well as the slew distance for azimuth.
+
+Subsequently, we selected those slews with a supply power voltage lower than 575 (V) and analyzed the slew distance.
+
+LAS IMAGENES
 
 Add content here
 ================
