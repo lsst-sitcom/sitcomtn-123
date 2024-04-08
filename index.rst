@@ -1,4 +1,3 @@
-#####################################################
 TMA Capacitor Bank discharge vs Acceleration profiles
 #####################################################
 
@@ -55,8 +54,11 @@ Initially, we attempted to calculate the slew distance using the formula for *an
 
 Therefore, to analyze the slew distance, we calculated the azimuth and elevation distances. For each observation day, we examined the scatter of the differences in azimuth and elevation at the start and end of the slew with their respective minimum supply power voltage. Additionally, we created histograms of these differences in the slew and of the minimum supply power voltage used.
 
-LAS IMAGENES
+.. figure:: /_static/scatter_minSupplyPowerVoltage.png
+   :name: fig-scatterVoltage
 
+.. figure:: /_static/hist_slew_distances and minSupppyPowerVoltage.png
+   :name: fig-hist
 
 Explore when Az and El moved at same time, rather than separately
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -69,7 +71,8 @@ We've categorized our observations into two groups: instances where the telescop
 
 We observed that in all cases, the start and end times of the movements in azimuth and elevation were different. However, upon closer examination, we found that these differences were consistently minimal, typically less than 0.1 seconds.
 
-LAS IMAGENES
+.. figure:: /_static/TypeMovement.png
+   :name: fig-type
 
 
 Look at Azimuth acceleration vs. power supply voltage
@@ -79,7 +82,11 @@ We have analyzed the relationship between velocity and mass acceleration with re
 
 Subsequently, we selected those slews with a supply power voltage lower than 575 (V) and analyzed the slew distance.
 
-LAS IMAGENES
+.. figure:: /_static/Scatter_TMA_SupplyPowerVoltage.png
+   :name: fig-tma
+
+.. figure:: /_static/Scatter_hist_cases570V.png
+   :name: fig-570v
 
 Add content here
 ================
