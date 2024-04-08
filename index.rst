@@ -57,7 +57,7 @@ Therefore, to analyze the slew distance, we calculated the azimuth and elevation
 .. figure:: /_static/scatter_minSupplyPowerVoltage.png
    :name: fig-scatterVoltage
 
-.. figure:: /_static/hist_slew_distances_and_minSupppyPowerVoltage.png
+.. figure:: /_static/hist_slew.png
    :name: fig-hist
 
 Explore when Az and El moved at same time, rather than separately
